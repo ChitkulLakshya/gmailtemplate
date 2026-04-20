@@ -1,7 +1,7 @@
 {
   "name": "Gate Pass · SNIST",
   "short_name": "Gate Pass",
-  "start_url": "/p1",
+  "start_url": ".",
   "display": "standalone",
   "background_color": "#1a1a1a",
   "theme_color": "#1a1a1a",
