@@ -902,10 +902,12 @@
 
       document.getElementById('threeDots').addEventListener('click', function (e) {
         e.stopPropagation();
-        document.getElementById('navMenu').classList.toggle('open');
+        var menu = document.getElementById('navMenu');
+        menu.classList.toggle('open');
       });
       document.addEventListener('click', function () {
-        document.getElementById('navMenu').classList.remove('open');
+        var menu = document.getElementById('navMenu');
+        if (menu) menu.classList.remove('open');
       });
     }
 
